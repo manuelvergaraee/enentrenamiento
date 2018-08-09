@@ -1,18 +1,11 @@
 /*
-    Theme Name: Chamilo Base
-    URL Project: http://www.chamilo.org
-    Description: Styles main base of Chamilo LMS appearance, works with Bootstrap 3.0.x
-    Author:
-        alex.aragon@beeznest.com
-        angel.quiroz@beeznest.com
-        julio.montoya@beeznest.com
-        yannik.warnier@beeznest.com
+    Theme Name: Enentrenamiento Chamilo Base
     Version: 1.0
 */
 
 @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,600,700');
 
-@import url(grizzly.css);
+@import url('grizzly.css');
 
 pre {
     margin-top:50px !important;
