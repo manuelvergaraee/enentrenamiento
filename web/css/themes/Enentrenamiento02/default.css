@@ -1,0 +1,474 @@
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro-bold.eot?#iefix') 
+        format('embedded-opentype'),  url('../../../../../recursos/fonts/sourcesans/sourcesanspro-bold.woff') format('woff'), url('../../../../../recursos/fonts/sourcesans/sourcesanspro-bold.ttf')  format('truetype'), url('../../../../../recursos/fonts/sourcesans/sourcesanspro-bold.svg#sourcesanspro-bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'source_sans_pro';
+  src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro.eot?#iefix') format('embedded-opentype'),  url('../../../../../recursos/fonts/sourcesans/sourcesanspro.woff') format('woff'), url('../../../../../recursos/fonts/sourcesans/sourcesanspro.ttf')  format('truetype'), url('../../../../../recursos/fonts//sourcesanspro/sourcesanspro.svg#sourcesanspro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro-black-webfont.woff2') format('woff2'),
+         url('../../../../../recursos/fonts/sourcesans/sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro-blackitalic-webfont.woff2') format('woff2'),
+         url('../../../../../recursos/fonts/sourcesans/sourcesanspro-blackitalic-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('../../../../../recursos/fonts/sourcesans/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro-extralightitalic-webfont.woff2') format('woff2'),
+         url('../../../../../recursos/fonts/sourcesans/sourcesanspro-extralightitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('../../../../../recursos/fonts/sourcesans/sourcesanspro-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro-lightitalic-webfont.woff2') format('woff2'),
+         url('../../../../../recursos/fonts/sourcesans/sourcesanspro-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('../../../../../recursos/fonts/sourcesans/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('../../../../../recursos/fonts/sourcesans/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'source_sans_pro', sans-serif;
+  line-height: 1.72222;
+  font-size: 16px;
+}
+a{
+  color: #004600;
+}
+a:hover{
+  color: #418A00;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #2d7d43;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #FFF;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #35B758;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #F69100;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #68a814;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #F7A32B !important;
+    background: none;
+}
+
+
+.navbar-default .navbar-toggle {
+  border-color: #008000;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #008000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #008000;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #F69100;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #F69100;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #F69100;
+    background-color: #008000;
+  }
+}
+.panel-default .panel-heading{
+    background-color: #E5E5E5;
+}
+.breadcrumb{
+  
+    background: none;
+
+    margin: 0 auto;
+}
+}
+.nav li a:hover{
+    background: transparent;
+}
+footer{
+  background: #35B758; /* Old browsers */
+  color: #FFFFFF;
+
+}
+footer a{
+  color: #ffffff;
+}
+footer a:hover{
+  color: #CCC;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+     color: #38b56b;
+    border-radius: 30px;
+    background: none;
+}
+
+ul.list-items-admin a {
+    color: #525252;
+}
+
+img#header-logo {
+    max-width: 130%;
+}
+
+.tab-homepage {
+    display: none !important;
+}
+
+.panel-default .panel-heading {
+        color: #35B758;
+    border: none !important;
+    background: none;
+    font-size: 26px;
+}
+
+.panel-default {
+    border-color: #f1f1f1;
+}
+
+#menuone .navbar-right {
+    margin-right: 0 !important;
+}
+
+a.dropdown-toggle {
+    color: #FFF !important;
+}
+
+ #logout_button {
+   color: #35b758 !important;
+ }
+
+.badge {
+  background-color: #F69100;
+}
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  padding-left: 0 !important;
+}
+
+
+.breadcrumb a {
+    color: #35b758;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.breadcrumb a:hover {
+    color: #35B758;
+    text-decoration: none;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.btn-primary {
+  background: #35B758;
+    border: none;
+    padding: 7px 25px;
+    display: inline-block;
+    -webkit-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.btn-primary:hover {
+background: #179138  !important;
+    color: #FFF !important;
+}
+
+.btn-primary:focus {
+      background-color: #75b65c;
+      outline: none;
+}
+
+
+
+.hallFama.panel {
+    border-color: #ddd;
+    padding: 5px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.imagenDestacada {
+    background: url("https://beargara.com/enentrenamiento/usuariosDestacados.png") center no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin: auto;
+    height: 123px;
+    text-indent: -99999px;
+}
+
+.hallFama h2 {
+    color: #35b758;
+}
+
+.hallFama p {
+    width: 80%;
+    margin: 29px auto;
+    font-size: 16px;
+    color: #ababab;
+    font-style: italic;
+}
+
+.section-login .hallFama {
+  display: none;
+}
+
+.section-login .panelVideoHTML {
+  display: none;
+}
+
+.section-login .comienzaAqui {
+  display: none;
+}
+
+.panelVideoHTML {
+  min-height:470px;
+  padding-top:10px;
+}
+
+.panel.panel-default.comienzaAqui {
+    padding: 15px;
+}
+
+.panel.panel-default.comienzaAqui h2 {
+    color: #35b758;
+    margin: 14px 0;
+    margin-top: 0;
+}
+
+img.comienzacurso {
+    opacity: 1;
+    -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+} 
+
+img.comienzacurso:hover {
+    opacity: .8;
+}
+
+
+.hallFama ol {
+    color: #848484;
+    text-align: left;   
+    padding-left: 17px;
+    display: block;
+}
+
+.hallFama ol {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+.hallFama ol > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 3.5em;
+    min-height: 3em;
+    line-height: 16px;
+    display: inline-block;
+
+}
+.hallFama ol > li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.2em;
+    height: 1.2em;
+    font-size: 2em;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5f5f5;
+    border-radius: 50%;
+    background-color: #35b758;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+span.progressbtn {
+    display: inline-block;
+    padding: 2px 8px;
+    background: #35b758;
+    color: #FFF;
+    margin: 2px;
+    border-radius: 13px;
+    font-size: 11px;
+}
+
+.section-social-network table img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+#registration .progress {
+width: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+span.password-verdict {
+    padding-left: 20px;
+    padding-top: 8px;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+form#registration {
+    width: 55%;
+    display: inline-block;
+    border: 1px solid #ececec;
+    padding: 1em;
+    border-radius: 22px;
+    background: #ffffff;
+    padding-top: 2EM;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 2em;
+}
+
+.page-course > p > img{
+         max-width: 100%;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+form#registration .col-sm-2 {
+    width: 26% !important;
+}
+
+form#registration input {
+    border: 1px solid #e6e6e6;
+    box-shadow: none;
+    border-radius: 30px;
+}
+
+form#registration .legal-terms {
+    font-size: .8em;
+    line-height: 1.2em;
+    color: #949494;
+    font-style: italic;
+}
+
+
+form#registration .legal-terms a {
+    color: #34b757;
+    font-weight: bold;
+}
+
+.lateral_registration { 
+  display: inline-block;
+  width: 40%;
+  padding: 12px;
+ }
+
+
+.question_title strong {
+    display: block;
+    line-height: 30px;
+    font-size: 20px !important;
+   font-weight: 400;
+    color: #545353;
+}
+
+#question_div_1267 div#hotspot-messages-1267 {
+    position: absolute;
+    bottom: -33px;
+    right: 0;
+}
+
+div#question_div_1267 .well {
+    display: none;
+}

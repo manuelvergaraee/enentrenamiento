@@ -1,0 +1,436 @@
+ * CSS GREEN - v. 2.0
+ * 2015 - Alex Aragón (aragonc@beeznest.com)
+ * Licensed GPL
+ * Based on Bootstrap
+*/
+.containerHeader {
+    background: #0fa6c4;
+}
+
+.containerHeader .col-md-3 {
+  background: #FFF;}
+
+@media (min-width: 992px) {  
+.containerHeader .col-md-3 {
+    width: 14%;
+}
+}
+
+@media (min-width: 768px) { 
+.containerHeader .navbar-nav {
+    float: none;
+    margin: 0;
+    display: inline-block !important;
+    text-align: center;
+  
+}
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../chamilo/fonts/OpenSans-Light.woff2) format('woff2'), url(../chamilo/fonts/OpenSans-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../chamilo/fonts/OpenSans.woff2) format('woff2'), url(../chamilo/fonts/OpenSans.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../chamilo/fonts/OpenSans-Semibold.woff2) format('woff2'), url(../chamilo/fonts/OpenSans-Semibold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../chamilo/fonts/OpenSans-Bold.woff2) format('woff2'), url(../chamilo/fonts/OpenSans-Bold.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  src: url('../../../../../recursos/fonts/SourceSansPro-Bold/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),  url('../../../../../recursos/fonts/SourceSansPro-Bold/SourceSansPro-Bold.woff') format('woff'), url('../../../../../recursos/fonts/SourceSansPro-Bold/SourceSansPro-Bold.ttf')  format('truetype'), url('../../../../../recursos/fonts/SourceSansPro-Bold/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../../../../../recursos/fonts/SourceSansPro-Regular/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../../../../../recursos/fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff') format('woff'), url('../../../../../recursos/fonts/SourceSansPro-Regular/SourceSansPro-Regular.ttf')  format('truetype'), url('../../../../../recursos/fonts//SourceSansPro-Regular/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.72222;
+  font-size: 16px;
+}
+a{
+  color: #1f7384;
+  -webkit-transition:.2s all ease;
+  -moz-transition:.2s all ease;
+  -ms-transition:.2s all ease;
+  -o-transition:.2s all ease;
+  transition:.2s all ease;
+}
+a:hover{
+  color: #36b6d0;
+}
+
+.navbar-default {
+background: none;
+border: none;
+color: #35B758 !important;
+margin-bottom: 0;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #F69100;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+          color: #ffffff;
+    font-weight: normal;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    margin-top: 30px;
+    margin-bottom: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.avatar-user > a {
+    margin-top: 18px !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #0b5e6f;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #FFF;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #0fa6c4;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #F69100;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #68a814;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #F7A32B !important;
+    background: none;
+}
+
+
+.navbar-default .navbar-toggle {
+  border-color: #008000;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #008000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #008000;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #F69100;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #F69100;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #F69100;
+    background-color: #008000;
+  }
+}
+.panel-default .panel-heading{
+    background-color: #E5E5E5;
+}
+.breadcrumb{
+  
+    background: none;
+        width: 85%;
+    margin: 0 auto;
+}
+.nav li a:hover{
+    background: transparent;
+}
+footer{
+  background: #0fa6c4; /* Old browsers */
+  color: #FFFFFF;
+
+}
+footer a{
+  color: #ffffff;
+}
+footer a:hover{
+  color: #CCC;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: #18bada;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+ul.list-items-admin a {
+    color: #525252;
+}
+
+img#header-logo {
+    max-width: 130%;
+}
+
+.tab-homepage {
+    display: none !important;
+}
+
+.panel-default .panel-heading {
+        color: #35B758;
+    border: none !important;
+    background: none;
+    font-size: 26px;
+}
+
+.panel-default {
+    border-color: #f1f1f1;
+}
+
+#menuone .navbar-right {
+    margin-right: 0 !important;
+}
+
+a.dropdown-toggle, #logout_button {
+    color: #0fa6c4 !important;
+}
+
+.badge {
+  background-color: #F69100;
+}
+
+#notifications a {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.containerHeader {
+      background: #22c7e9;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  padding-left: 0 !important;
+  text-align: center;
+}
+
+.breadcrumb a {
+    color: #bbbbbb;
+    font-size: 13px;
+}
+
+.breadcrumb img {
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.breadcrumb a:hover {
+    color: #35B758;
+    text-decoration: none;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.btn-primary {
+  background: #35B758;
+    border: none;
+    padding: 7px 25px;
+    display: inline-block;
+    -webkit-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+    background: #51c971;
+}
+
+.btn-primary:focus {
+      background-color: #35b758;
+      outline: none;
+}
+
+.hallFama.panel {
+    border-color: #ddd;
+    padding: 5px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.imagenDestacada {
+    background: url("https://beargara.com/enentrenamiento/usuariosDestacados.png") center no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin: auto;
+    height: 123px;
+    text-indent: -99999px;
+}
+
+.hallFama h2 {
+    color: #35b758;
+}
+
+.hallFama p {
+    width: 80%;
+    margin: 29px auto;
+    font-size: 16px;
+    color: #ababab;
+    font-style: italic;
+}
+
+.section-login .hallFama {
+  display: none;
+}
+
+.section-login .panelVideoHTML {
+  display: none;
+}
+
+.section-login .comienzaAqui {
+  display: none;
+}
+
+.panelVideoHTML {
+  min-height:470px;
+  padding-top:10px;
+}
+
+.panel.panel-default.comienzaAqui {
+    padding: 15px;
+}
+
+.panel.panel-default.comienzaAqui h2 {
+    color: #35b758;
+    margin: 14px 0;
+    margin-top: 0;
+}
+
+img.comienzacurso {
+    opacity: 1;
+    -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+} 
+
+img.comienzacurso:hover {
+    opacity: .8;
+}
+.logoPrincipal {
+    background: url(https://www.enentrenamiento.com/recursos/plataforma/likeulogo.png) center center no-repeat;
+    background-size: cover;
+    height: 79px;
+    display: inline-block;
+    width: 89px;
+    margin-left: 70px;
+}
+
+.headerPlataforma {
+  background: #35B758;
+    height: 84px;
+    margin-top: 0;
+    padding: 21px 0;
+    margin-bottom: 20px;
+}
+
+.hallFama ol {
+    color: #848484;
+    text-align: left;   
+    padding-left: 17px;
+    display: block;
+}
+
+.hallFama ol {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+.hallFama ol > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 3.5em;
+    min-height: 3em;
+    line-height: 16px;
+    display: inline-block;
+
+}
+.hallFama ol > li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.2em;
+    height: 1.2em;
+    font-size: 2em;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5f5f5;
+    border-radius: 50%;
+    background-color: #35b758;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+span.progressbtn {
+    display: inline-block;
+    padding: 2px 8px;
+    background: #35b758;
+    color: #FFF;
+    margin: 2px;
+    border-radius: 13px;
+    font-size: 11px;
+}
+
+.section-social-network table img {
+    max-width: 100%;
+    display: inline-block;
+}
